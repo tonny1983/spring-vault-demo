@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://${mongodb.username}:${mongodb.password}@[your_ip]:27017/vaultdemo
+management:
+  endpoint:
+    restart:
+      enabled: true

@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    vault:
+      generic:
+        enabled: false
+      scheme: http
+      uri: http://localhost:8200
+      config:
+        order: -10
+      authentication: APPROLE
+      app-role:
+        role-id: [your role-id]
+        secret-id: [your secret-id]
+      mongodb:
+        enabled: true
+        role: readwrite
+        backend: database
+        username-property: mongodb.username
+        password-property: mongodb.password
