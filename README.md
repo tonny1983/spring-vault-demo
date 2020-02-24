@@ -9,6 +9,8 @@ The blog post gives four solutions to resolve a spring vault issue that the data
 
 The application is a Java implementation of solution 3 using **APPROLE** authentication and tested with OpenJDK11-OpenJ9, vault v1.3.2 and MongoDB v3.6.
 
+For the fourth solution in a more general case, please refer to the `rotate` branch.
+
 # Getting Started
 
 ## Vault
