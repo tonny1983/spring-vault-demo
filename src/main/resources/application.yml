@@ -1,8 +1,10 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://${mongodb.username}:${mongodb.password}@[your_ip]:27017/vaultdemo
+      uri: mongodb://${mongodb.username}:${mongodb.password}@101.251.68.154:27017/vaultdemo
 management:
   endpoint:
+    refresh:
+      enabled: true
     restart:
       enabled: true
