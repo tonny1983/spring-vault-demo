@@ -9,8 +9,8 @@ spring:
         order: -10
       authentication: APPROLE
       app-role:
-        role-id: 43b46377-d7b9-9cba-1687-0b917bdb66b3
-        secret-id: 9911e529-1690-dd31-f44b-0913d86f0e6e
+        role-id: [your role-id]
+        secret-id: [your secret-id]
       mongodb:
         enabled: true
         role: readwrite
